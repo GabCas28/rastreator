@@ -1,0 +1,5 @@
+{% extends 'base.html' %} {% block content %} {% if hits %}{% if query_string %}
+<p><strong>Query: </strong>" {{query_string}} "</p>{% endif%}
+<p>Showing 1-10 out of {{n_hits}} hits</p>
+{% for hit in hits %}
+<p>{{hit}}</p> {% endfor %} {% endif %} {% endblock content %}
