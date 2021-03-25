@@ -1,4 +1,4 @@
-# Elastic Search with Django
+# ElasticSearch with Django
 
 This project makes use of the [Python Elasticsearch Client](https://elasticsearch-py.readthedocs.io/en/v7.12.0/#python-elasticsearch-client)
 
